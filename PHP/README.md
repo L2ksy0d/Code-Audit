@@ -2,7 +2,8 @@
 
 放一些PHP代码审计学习中遇到的很有意思的片段
 
-## file-config-vulnerability.php
+<details>
+<summary>file-config-vulnerability.php</summary>
 
 ### 利用换行符来绕过正则匹配的问题
 
@@ -94,3 +95,6 @@ $option=';phpinfo();';
 <?php
 $option='$option=';phpinfo();';';
 ```
+</details>
+
+
